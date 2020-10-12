@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9090" started-at="2020-10-04T02:32:32Z" finished-at="2020-10-04T02:32:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9090" started-at="2020-10-04T02:32:32Z" finished-at="2020-10-04T02:32:41Z">
+      <class name="com.biplob.testcases.TestRegister">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.biplob.testcases.TestRegister@b3ca52e]" name="initialization" is-config="true" duration-ms="3174" started-at="2020-10-04T02:32:32Z" finished-at="2020-10-04T02:32:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.biplob.testcases.TestRegister@b3ca52e]" name="register" duration-ms="5802" started-at="2020-10-04T02:32:35Z" data-provider="getData" finished-at="2020-10-04T02:32:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ray]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.177745413E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[david12@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123Broadway]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[NewYork]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[11432.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[UNITED STATES]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.biplob.testcases.TestRegister@b3ca52e]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-04T02:32:41Z" finished-at="2020-10-04T02:32:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.biplob.testcases.TestRegister -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
